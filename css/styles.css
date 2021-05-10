@@ -3,7 +3,12 @@
   --secondary-font: 'Raleway', sans-serif;
   --accent-color: #2196f3;
   --background-color: #2f303a;
+  --background-grey-color: #f5f4fa;
   --title-color: #212121;
+  --white-color: #ffffff;
+  --grey-color: #757575;
+  --black-color: #000000;
+  --address-link-color: rgba(255, 255, 255, 0.6);
 }
 
 .list {
@@ -16,12 +21,12 @@
 
 body {
   font-family: var(--main-font);
-  color: #757575;
+  color: var(--grey-color);
 }
 
 /* ============ HEADER ========== */
 .logo {
-  color: #000;
+  color: var(--black-color);
 }
 
 .logo-link {
@@ -30,7 +35,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .menu-link {
@@ -38,10 +43,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #000000;
+  color: var(--black-color);
 }
 .accent {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .menu-link:hover,
@@ -54,7 +59,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--grey-color);
 }
 
 .header-contact-link:hover,
@@ -87,7 +92,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .modal-btn {
   font-weight: 700;
@@ -95,13 +100,13 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
 /* ========== END BANNER ========== */
 
@@ -136,7 +141,7 @@ body {
 
 /* ========== TEAM ========== */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--background-team-color);
 }
 .team-title {
   font-weight: 700;
@@ -162,6 +167,7 @@ body {
 
 /* ========== PORTFOLIO ========== */
 .modal-button {
+  background-color: var(--background-grey-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -172,7 +178,7 @@ body {
 
 .modal-button:hover,
 .modal-button:focus {
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 .portfolio-title {
@@ -187,7 +193,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-color);
 }
 /* ========== END PORTFOLIO ========== */
 
@@ -196,31 +202,32 @@ body {
   background-color: var(--background-color);
 }
 .logo-fotter {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .address-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
-  color: #ffffff;
+  color: var(--white-color);
 }
 .address-contact-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--address-link-color);
 }
 .address-link:hover,
 .address-link:focus {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .address-contact-link:hover,
 .address-contact-link:focus {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--address-link-color);
 }
 /* ========== END FOOTER ========== */
